@@ -24,9 +24,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel:'stylesheet' },
-      { href: 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&display=swap', rel:'stylesheet'}
-],
+      { href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel: 'stylesheet' },
+      { href: 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&display=swap', rel: 'stylesheet' },
+    ],
   },
   /*
   ** Global CSS
@@ -75,10 +75,10 @@ export default {
         endpoints: {
           login: { url: 'auth/login', method: 'post', propertyName: 'token' },
           user: { url: 'users/profile', method: 'get', propertyName: 'user' },
-          logout: false
-        }
-      }
-    }
+          logout: false,
+        },
+      },
+    },
   },
   /*
   ** Build configuration

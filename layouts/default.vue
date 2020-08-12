@@ -2,11 +2,15 @@
   <div>
     <ul class="app-nav-bar">
       <span class="nav-logo">Q</span>
-      <router-link tag="li" active-class="active" to="/projects" exact><a>PROJECTS</a></router-link>
+      <router-link tag="li" active-class="active" to="/projects" exact>
+        <a>PROJECTS</a>
+      </router-link>
       <li v-if="isLoggedIn">
         <a class="logout-btn" @click="logout()">LOGOUT</a>
       </li>
-      <router-link v-else tag="li" active-class="active" to="/login" exact><a>LOGIN</a></router-link>
+      <router-link v-else tag="li" active-class="active" to="/login" exact>
+        <a>LOGIN</a>
+      </router-link>
     </ul>
     <Nuxt />
   </div>
